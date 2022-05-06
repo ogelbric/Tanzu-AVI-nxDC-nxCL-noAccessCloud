@@ -15,5 +15,5 @@ Here are the various versions (to avoind confusion):
 
 Here is the vCenter setup with 2 DC's and 3 CL's and 2 CL's in one DC and one CL in one DC
 
-![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/setup.png)
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/setup1.png)
 

@@ -17,3 +17,6 @@ Here is the vCenter setup with 2 DC's and 3 CL's and 2 CL's in one DC and one CL
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/setup1.png)
 
+Here is the vCenter network setup: 
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/networksetup1.png)

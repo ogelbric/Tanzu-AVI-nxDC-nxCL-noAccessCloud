@@ -5,3 +5,4 @@ This write up wil center on the setup of vCenter with AVI and enabling several v
 vCenter 7u3d is needed (Marker enablement!) 
 Here are the various versions: 
 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/vcenterversions.png)

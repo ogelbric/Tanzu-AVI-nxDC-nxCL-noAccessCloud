@@ -29,3 +29,15 @@ Connect the SE's to the networks
 Deploy Marker (PDF) 
 Enable WCP in 2 x DC and 3 x CL
 
+Lets get Started: 
+
+AVI = 192.168.3.40
+vCenter = 192.168.1.50
+
+
+# AVI Controller OVA Deployment 
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/avicontrollerovadeployment.png)
+
+
+

@@ -21,7 +21,7 @@ Here is the vCenter network setup:
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/networksetup1.png)
 
-## General Setup Steps
+### General Setup Steps
 
 Deploy AVI controller
 Doploy AVI SE's (my case 3x2) in the DC's/CL's
@@ -29,10 +29,12 @@ Connect the SE's to the networks
 Deploy Marker (PDF) 
 Enable WCP in 2 x DC and 3 x CL
 
-Lets get Started: 
+## Lets get Started
+
+# Network Information
 
 AVI = 192.168.3.40
-vCenter = 192.168.1.50
+vCenter = 192.168.3.50
 
 
 # AVI Controller OVA Deployment 

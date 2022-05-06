@@ -2,3 +2,6 @@
 
 This write up wil center on the setup of vCenter with AVI and enabling several vCenter Data Centers and vCenter Clusters with WCP (Tanzu TKGs). 
 
+vCenter 7u3d is needed (Marker enablement!) 
+Here are the various versions: 
+

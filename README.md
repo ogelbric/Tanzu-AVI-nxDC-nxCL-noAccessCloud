@@ -20,3 +20,12 @@ Here is the vCenter setup with 2 DC's and 3 CL's and 2 CL's in one DC and one CL
 Here is the vCenter network setup: 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/networksetup1.png)
+
+## General Setup Steps
+
+Deploy AVI controller
+Doploy AVI SE's (my case 3x2) in the DC's/CL's
+Connect the SE's to the networks
+Deploy Marker (PDF) 
+Enable WCP in 2 x DC and 3 x CL
+

@@ -1,6 +1,6 @@
 # Tanzu-AVI-nxDC-nxCL-noAccessCloud
 
-This write up wil center on the setup of vCenter with AVI and enabling several vCenter Data Centers and vCenter Clusters with WCP (Tanzu TKGs). 
+This write up will center on the setup of vCenter with AVI enabling several vCenter Data Centers and vCenter Clusters with WCP (Tanzu TKGs). 
 
 ## In the beginning was the inspiration:
 

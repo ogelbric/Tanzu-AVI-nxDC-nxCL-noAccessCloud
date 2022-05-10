@@ -39,6 +39,11 @@ Enable WCP in 2 x DC and 3 x CL
 AVI = 192.168.3.40
 vCenter = 192.168.3.50
 
+DNS = 10.197.79.7
+NTP = 10.128.152.81
+
+
+
 
 # AVI Controller OVA Deployment 
 

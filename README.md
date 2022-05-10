@@ -65,6 +65,7 @@ Answer some basic questions
 
 
 
+Cluster UUID: cluster-6a0818c4-4ab1-47f3-a162-99c9581cba42
 
 
 

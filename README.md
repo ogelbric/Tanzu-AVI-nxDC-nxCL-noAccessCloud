@@ -27,7 +27,9 @@ The vCenter network setup:
 Deploy AVI controller
 Doploy AVI SE's (my case 3x2) in the DC's/CL's
 Connect the SE's to the networks
-Deploy Marker (PDF) 
+Deploy Marker (PDF below) 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/1061720785_9851830dbba540b5b54b26daf9329690-040522-1117-3444.pdf)
+
 Enable WCP in 2 x DC and 3 x CL
 
 ## Lets get Started

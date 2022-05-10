@@ -9,16 +9,16 @@ AVI in "No Access Mode" (https://avinetworks.com/docs/21.1/installing-avi-vantag
 
 Lets go into more detail: 
 
-vCenter 7u3d is needed (Marker enablement!) 
-Here are the various versions (to avoind confusion): 
+vCenter 7u3d required (Marker enablement!) 
+The various versions (to avoind confusion): 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/vcenterversions.png)
 
-Here is the vCenter setup with 2 DC's and 3 CL's and 2 CL's in one DC and one CL in one DC
+The vCenter setup with 2 DC's and 3 CL's and 2 CL's in one DC and one CL in one DC
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/setup1.png)
 
-Here is the vCenter network setup: 
+The vCenter network setup: 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/networksetup1.png)
 

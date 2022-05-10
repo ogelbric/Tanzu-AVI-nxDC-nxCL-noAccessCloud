@@ -44,5 +44,14 @@ vCenter = 192.168.3.50
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/avicontrollerovadeployment.png)
 
+Power on AVI Controller
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/PowerOnAVI.png)
+
+
+
+
+
+
 
 

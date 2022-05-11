@@ -97,4 +97,8 @@ Check AVI SE in AVI Controller
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE1up.png)
 
 
+Deploy AVI SE 2 for dc-a and cl-a
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE2.png)
+
 

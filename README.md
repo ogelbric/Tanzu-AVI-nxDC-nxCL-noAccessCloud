@@ -232,6 +232,41 @@ Password:
 +---------------+---------------------------------------------------------+---------------+
 [admin:192-168-3-40]: > 
 ```
+Marker on SE group
+
+```
+[admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-ab
+Updating an existing object. Currently, the object is:
++-----------------------------------------+---------------------------------------------------------+
+| Field                                   | Value                                                   |
++-----------------------------------------+---------------------------------------------------------+
+| uuid                                    | serviceenginegroup-20bf478c-3d0f-4c3a-84ef-b40284bdf2cd |
+| name                                    | dc-a-cl-ab                                              |
+.
+.
+.
+
+[admin:192-168-3-40]: serviceenginegroup> markers
+New object being created
+[admin:192-168-3-40]: serviceenginegroup:markers> key clustername
+[admin:192-168-3-40]: serviceenginegroup:markers> values domain-c8:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+[admin:192-168-3-40]: serviceenginegroup:markers> save
+s[admin:192-168-3-40]: serviceenginegroup> save
++-----------------------------------------+---------------------------------------------------------+
+| Field                                   | Value                                                   |
++-----------------------------------------+---------------------------------------------------------+
+| uuid                                    | serviceenginegroup-20bf478c-3d0f-4c3a-84ef-b40284bdf2cd |
+| name                                    | dc-a-cl-ab                                              |
+| max_vs_per_se                           | 10                                                      |
+.
+.
+.
+| markers[1]                              |                                                         |
+|   key                                   | clustername                                             |
+|   values[1]                             | domain-c8:7aefe7fe-10bd-4a1e-a9c7-a92227e40298          |
++-----------------------------------------+---------------------------------------------------------+
+[admin:192-168-3-40]: >
+```
 
 
 

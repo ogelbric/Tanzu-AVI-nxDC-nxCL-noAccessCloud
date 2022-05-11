@@ -142,7 +142,11 @@ Put IP's onto both SE interfaces
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/IPSEdcaclaa2.png)
 
+Routing from workload to Front end network
 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Route1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Route2.png)
 
 
 

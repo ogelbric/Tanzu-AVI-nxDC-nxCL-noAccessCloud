@@ -35,13 +35,15 @@ Enable WCP in 2 x DC and 3 x CL
 ## Lets get Started
 
 # Network Information
-
+```
 AVI = 192.168.3.40
+AVI SE DC-a / cl-a = 192.168.3.41
+
 vCenter = 192.168.3.50
 
 DNS = 10.197.79.7
 NTP = 10.128.152.81
-
+```
 
 
 
@@ -80,6 +82,8 @@ Generate AVI SE OVA
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEdownload.png)
 
+
+Power on AVI SE in dc-a / cl-a
 
 
 

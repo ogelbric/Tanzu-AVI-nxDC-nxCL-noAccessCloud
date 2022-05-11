@@ -206,5 +206,32 @@ Marker for cl-ba = domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
 
 ```
 
+Marker Creation on AVI controller
+
+```
+[root@orfdns ~]# ssh admin@192.168.3.40
+Avi Cloud Controller
+Avi Networks software, Copyright (C) 2013-2017 by Avi Networks, Inc.
+All rights reserved. 
+Management:   192.168.3.40/24                UP 
+Gateway:      192.168.3.1                    UP 
+
+
+admin@192-168-3-40:~$ shell
+Login: admin
+Password: 
+
+[admin:192-168-3-40]: > show serviceenginegroup
++---------------+---------------------------------------------------------+---------------+
+| Name          | UUID                                                    | Cloud         |
++---------------+---------------------------------------------------------+---------------+
+| Default-Group | serviceenginegroup-82201162-f8c7-4345-9f2f-d879521ff0c9 | Default-Cloud |
+| dc-a-cl-aa    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d | Default-Cloud |
+| dc-a-cl-ab    | serviceenginegroup-20bf478c-3d0f-4c3a-84ef-b40284bdf2cd | Default-Cloud |
+| dc-b-cl-aa    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
++---------------+---------------------------------------------------------+---------------+
+[admin:192-168-3-40]: > 
+```
+
 
 

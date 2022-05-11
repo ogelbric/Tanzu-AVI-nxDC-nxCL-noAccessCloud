@@ -37,12 +37,21 @@ Enable WCP in 2 x DC and 3 x CL
 # Network Information
 ```
 AVI = 192.168.3.40
-AVI SE DC-a / cl-a = 192.168.3.41
+
+AVI SE1 DC-a / cl-aa = 192.168.3.41
+AVI SE2 DC-a / cl-aa = 192.168.3.42
 
 vCenter = 192.168.3.50
-
 DNS = 10.197.79.7
 NTP = 10.128.152.81
+
+dc-a / cl-aa
+MGT = 192.168.3.x    Net Adapter 1  05:17 eth0
+Front = 192.168.5.x  Net Adapter 2  50:88 eth3 5.11
+Work = 192.168.7.x   Net Adapter 3  5a:4b eth4 7.11
+
+
+
 ```
 
 

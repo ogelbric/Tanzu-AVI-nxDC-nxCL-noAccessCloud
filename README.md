@@ -92,7 +92,7 @@ Power on AVI SE in dc-a / cl-a
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE5.png)
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE6.png)
 
-Check AVI SE in AVI Controller
+Check AVI SE 1 in AVI Controller
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE1up.png)
 
@@ -100,5 +100,9 @@ Check AVI SE in AVI Controller
 Deploy AVI SE 2 for dc-a and cl-a
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE22.png)
+
+Check AVI SE 2 in AVI Controller
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE2up.png)
 
 

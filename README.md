@@ -404,5 +404,9 @@ q+JPGx4=
 -----END CERTIFICATE-----
 ```
 
+Now Enable WCP in vCenter
+
+
+
 
 

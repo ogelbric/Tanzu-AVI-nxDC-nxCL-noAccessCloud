@@ -72,11 +72,13 @@ Generate Key for SE's and AVI Controller image:
 Cluster UUID: cluster-6a0818c4-4ab1-47f3-a162-99c9581cba42
 ```
 
-AVI Controller needs to be updated with UUID
+AVI Controller OVA needs to be updated with UUID
 
 Generate AVI SE OVA 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEImage.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEdownload.png)
 
 
 

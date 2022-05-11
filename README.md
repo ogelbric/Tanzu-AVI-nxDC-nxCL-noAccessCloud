@@ -72,6 +72,11 @@ Generate Key for SE's and AVI Controller image:
 Cluster UUID: cluster-6a0818c4-4ab1-47f3-a162-99c9581cba42
 ```
 
+AVI Controller needs to be updated with UUID
+
+Generate AVI SE image 
+
+
 
 
 

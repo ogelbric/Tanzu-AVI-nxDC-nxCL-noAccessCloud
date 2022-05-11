@@ -45,11 +45,15 @@ vCenter = 192.168.3.50
 DNS = 10.197.79.7
 NTP = 10.128.152.81
 
-dc-a / cl-aa
-MGT = 192.168.3.x    Net Adapter 1  05:17 eth0
-Front = 192.168.5.x  Net Adapter 2  50:88 eth3 5.11
-Work = 192.168.7.x   Net Adapter 3  5a:4b eth4 7.11
+dc-a / cl-aa / SE1
+MGT = 192.168.3.x     Net Adapter 1  05:17 eth0
+Work = 192.168.5.x    Net Adapter 2  50:88 eth3 5.41
+Front = 192.168.7.x   Net Adapter 3  5a:4b eth4 7.41
 
+dc-a / cl-aa / SE2
+MGT = 192.168.3.x     Net Adapter 1  85:34 eth0
+Work = 192.168.5.x    Net Adapter 2  dc:1d eth3 5.42
+Front = 192.168.7.x   Net Adapter 3  b4:b2 eth4 7.42
 
 
 ```

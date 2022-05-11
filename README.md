@@ -92,5 +92,9 @@ Power on AVI SE in dc-a / cl-a
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE5.png)
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE6.png)
 
+Check AVI SE in AVI Controller
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE1up.png)
+
 
 

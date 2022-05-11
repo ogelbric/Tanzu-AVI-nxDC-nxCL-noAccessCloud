@@ -268,5 +268,128 @@ s[admin:192-168-3-40]: serviceenginegroup> save
 [admin:192-168-3-40]: >
 ```
 
+Marker on Network object
+
+```
+[admin:192-168-3-40]: > show network
++---------------------+----------------------------------------------+
+| Name                | UUID                                         |
++---------------------+----------------------------------------------+
+| frontend-dc-a-cl-aa | network-b66a7edc-b07a-4431-ab77-a415cca0e9c4 |
++---------------------+----------------------------------------------+
+[admin:192-168-3-40]: > configure network 
+Usage: 'configure network <name>'. You must enter the object name.
+[admin:192-168-3-40]: > configure network frontend-dc-a-cl-aa
+Updating an existing object. Currently, the object is:
++----------------------------+----------------------------------------------+
+| Field                      | Value                                        |
++----------------------------+----------------------------------------------+
+| uuid                       | network-b66a7edc-b07a-4431-ab77-a415cca0e9c4 |
+| name                       | frontend-dc-a-cl-aa                          |
+| vcenter_dvs                | True                                         |
+| dhcp_enabled               | True                                         |
+| exclude_discovered_subnets | False                                        |
+| configured_subnets[1]      |                                              |
+|   prefix                   | 192.168.7.0/24                               |
+|   static_ip_ranges[1]      |                                              |
+|     range                  |                                              |
+|       begin                | 192.168.7.50                                 |
+|       end                  | 192.168.7.100                                |
+|     type                   | STATIC_IPS_FOR_VIP_AND_SE                    |
+| vrf_context_ref            | global                                       |
+| synced_from_se             | False                                        |
+| ip6_autocfg_enabled        | True                                         |
+| tenant_ref                 | admin                                        |
+| cloud_ref                  | Default-Cloud                                |
++----------------------------+----------------------------------------------+
+[admin:192-168-3-40]: network> markers
+New object being created
+[admin:192-168-3-40]: network:markers> key clustername
+[admin:192-168-3-40]: network:markers> values domain-c8:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+[admin:192-168-3-40]: network:markers> save
+[admin:192-168-3-40]: network> save
++----------------------------+------------------------------------------------+
+| Field                      | Value                                          |
++----------------------------+------------------------------------------------+
+| uuid                       | network-b66a7edc-b07a-4431-ab77-a415cca0e9c4   |
+| name                       | frontend-dc-a-cl-aa                            |
+| vcenter_dvs                | True                                           |
+| dhcp_enabled               | True                                           |
+| exclude_discovered_subnets | False                                          |
+| configured_subnets[1]      |                                                |
+|   prefix                   | 192.168.7.0/24                                 |
+|   static_ip_ranges[1]      |                                                |
+|     range                  |                                                |
+|       begin                | 192.168.7.50                                   |
+|       end                  | 192.168.7.100                                  |
+|     type                   | STATIC_IPS_FOR_VIP_AND_SE                      |
+| vrf_context_ref            | global                                         |
+| synced_from_se             | False                                          |
+| ip6_autocfg_enabled        | True                                           |
+| markers[1]                 |                                                |
+|   key                      | clustername                                    |
+|   values[1]                | domain-c8:7aefe7fe-10bd-4a1e-a9c7-a92227e40298 |
+| tenant_ref                 | admin                                          |
+| cloud_ref                  | Default-Cloud                                  |
++----------------------------+------------------------------------------------+
+[admin:192-168-3-40]: > 
+```
+
+Check the profiles :
+
+```
+[admin:192-168-3-40]: > show ipamdnsproviderprofile
++----------------+-------------------------------------------------------------+
+| Name           | UUID                                                        |
++----------------+-------------------------------------------------------------+
+| ipam-dc-a-cl-a | ipamdnsproviderprofile-34e6d3e9-b1e6-4af0-9f5d-f29a74036798 |
++----------------+-------------------------------------------------------------+
+[admin:192-168-3-40]: > show ipamdnsproviderprofile ipam-dc-a-cl-a
++-------------------------+-------------------------------------------------------------+
+| Field                   | Value                                                       |
++-------------------------+-------------------------------------------------------------+
+| uuid                    | ipamdnsproviderprofile-34e6d3e9-b1e6-4af0-9f5d-f29a74036798 |
+| name                    | ipam-dc-a-cl-a                                              |
+| type                    | IPAMDNS_TYPE_INTERNAL                                       |
+| internal_profile        |                                                             |
+|   ttl                   | 30 sec                                                      |
+|   usable_networks[1]    |                                                             |
+|     nw_ref              | frontend-dc-a-cl-aa                                         |
+| gcp_profile             |                                                             |
+|   match_se_group_subnet | False                                                       |
+|   use_gcp_network       | False                                                       |
+| azure_profile           |                                                             |
+|   use_enhanced_ha       | False                                                       |
+|   use_standard_alb      | False                                                       |
+| allocate_ip_in_vrf      | False                                                       |
+| tenant_ref              | admin                                                       |
++-------------------------+-------------------------------------------------------------+
+[admin:192-168-3-40]: > 
+```
+Cert creation
+
+
+
+```
+-----BEGIN CERTIFICATE-----
+MIIC0TCCAbmgAwIBAgIUPr0/kIqZVTSbztzjygQk21vqYxYwDQYJKoZIhvcNAQEL
+BQAwGDEWMBQGA1UEAwwNYXZpLmxhYi5sb2NhbDAeFw0yMjA1MTEyMTU0MzRaFw0y
+MzA1MTEyMTU0MzRaMBgxFjAUBgNVBAMMDWF2aS5sYWIubG9jYWwwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+8rEs7kDV0GLVPMYfBo0H/Z+IfvLemWRz
+QTEFrmwAMZfQib6Trhz5QTO+Uh/YaTiQ/4P7fFF/h00+xmfa5OAoVu+LMZnpubTb
+2L5Q7HMZCgNLxn0iunL/VOgbIPe/cOAtwaKcm2mYeQYr8PshC8CZX7hTTqJ+RlgH
+OjS4qhCWanmDaGgqwwgWEIoFhgyz1GrMzcKLA7H4I88FP/Ej5ksWHPiuB8FV4oTR
+Ge5nFV2sDwqAe1AaO5Xtpd4TxMrxTCpnm/osPv5qVjKInOzEsuc+CeWNmP0kl8mP
+AMmBKDsvqTkxUX5J+0VS/daET9fDxxXWiWaHu12mjxc8qYUu3ExVAgMBAAGjEzAR
+MA8GA1UdEQQIMAaHBMCoAygwDQYJKoZIhvcNAQELBQADggEBAFoaDD9EB9EqLqbc
+HjqLJxGCKe+admsGVz3vrP7EoRgfiB0Cna4muPC7d+HBvEe2aE3fPLKQ737NqZoi
+7P6A8t4CSrz/0yN1X5WWKiBj+VmoTnlLLpNR703BF5Uhsx+VmQoxVo5TLR9JDJyD
+zq6v3jHTDBlFv237/Niv3zg19noOLjTQYdAYeGLbxb0Bw2PshpSKqGOIAMHK5A2q
+jHiC2fAmca1/bRY/2eLhmg/okMKc/EXWZTlOCHEVtgHyKZiRM5vtcyuSuSnwa1qK
+50jQrYncWVjP1fc2N8A58Yy/EUUwJaFYIeD5LWllzj1jeDXGApPVsEkQ+pLG4TDQ
+q+JPGx4=
+-----END CERTIFICATE-----
+```
+
 
 

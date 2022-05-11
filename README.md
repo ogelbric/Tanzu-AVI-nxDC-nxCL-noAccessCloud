@@ -159,7 +159,52 @@ Frontend Network Declaration / Pool / Adding pool to Default Cloud
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/DefCloud1.png)
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/DefCloud2.png)
 
+Collecting some ID's 
 
+```
+PS C:\Users\Administrator> $vcenter = Connect-VIServer 192.168.3.50 -User administrator@vsphere.local -Password "VMware1!"
+PS C:\Users\Administrator> $vcenter.InstanceUuid
+
+7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+
+
+PS C:\Users\Administrator> get-cluster
+
+Name                           HAEnabled  HAFailover DrsEnabled DrsAutomationLevel
+                                          Level
+----                           ---------  ---------- ---------- ------------------
+cl-ba                          True       1          True       FullyAutomated
+cl-ab                          True       1          True       FullyAutomated
+cl-aa                          True       1          True       FullyAutomated
+
+
+PS C:\Users\Administrator> get-cluster cl-aa | select ID
+
+Id
+--
+ClusterComputeResource-domain-c8
+
+PS C:\Users\Administrator> get-cluster cl-ab | select ID
+
+Id
+--
+ClusterComputeResource-domain-c79
+
+PS C:\Users\Administrator> get-cluster cl-ba | select ID
+
+Id
+--
+ClusterComputeResource-domain-c40
+
+
+Marker creation:
+==============
+ 
+Marker for cl-aa = domain-c8:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+Marker for cl-ab = domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+Marker for cl-ba = domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+
+```
 
 
 

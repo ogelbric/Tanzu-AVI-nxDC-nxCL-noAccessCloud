@@ -234,7 +234,7 @@ Password:
 +---------------+---------------------------------------------------------+---------------+
 [admin:192-168-3-40]: > 
 ```
-Marker on SE group
+Marker on SE group (Picked wrong group should have been dc-a-cl-aa!!!!! have to re-do a few things !!!!! ) 
 
 ```
 [admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-ab

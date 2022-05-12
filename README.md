@@ -426,5 +426,11 @@ Enable WCP in vCenter
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/wcp10.png)
 
+Cloud 1 is green
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Green1.png)
+
+
+
 
 

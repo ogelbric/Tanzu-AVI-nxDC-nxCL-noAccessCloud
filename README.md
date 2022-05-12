@@ -9,10 +9,12 @@ AVI in "No Access Mode" (https://avinetworks.com/docs/21.1/installing-avi-vantag
 
 Lets go into more detail: 
 
-vCenter 7u3d required (Marker enablement!) 
+vCenter 7u3d required (Marker enablement! Default Cloud and Marker selected attached vip pools) 
 The various versions (to avoind confusion): 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/vcenterversions.png)
+
+AVI Verision used (controller-21.1.2-9124) 
 
 The vCenter setup with 2 DC's and 3 CL's and 2 CL's in one DC and one CL in one DC
 

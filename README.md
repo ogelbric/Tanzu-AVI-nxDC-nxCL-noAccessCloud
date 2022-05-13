@@ -63,14 +63,14 @@ Front = 192.168.7.x   Net Adapter 3  b4:b2 eth4 7.42
 
 
 dc-a / cl-ab / SE1
-MGT = 192.168.1.x     Net Adapter 1  05:17 eth0
-Work = 192.168.4.x    Net Adapter 2  50:88 eth3 4.41
-Front = 192.168.6.x   Net Adapter 3  5a:4b eth4 6.41
+MGT = 192.168.1.x     Net Adapter 1  04:4e eth0
+Work = 192.168.4.x    Net Adapter 2  8c:a0 eth3 4.41
+Front = 192.168.6.x   Net Adapter 3  b4:f7 eth4 6.41
 
 dc-a / cl-ab / SE2
-MGT = 192.168.1.x     Net Adapter 1  05:17 eth0
-Work = 192.168.4.x    Net Adapter 2  50:88 eth3 4.42
-Front = 192.168.6.x   Net Adapter 3  5a:4b eth4 6.42
+MGT = 192.168.1.x     Net Adapter 1  6d:7b eth0
+Work = 192.168.4.x    Net Adapter 2  19:9c eth3 4.42
+Front = 192.168.6.x   Net Adapter 3  52:9e eth4 6.42
 
 ```
 

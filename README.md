@@ -549,6 +549,11 @@ Then power on SE's in DC a / CL ab
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIController2moreses.png)
 
-# Move new SE's to dc-a-cl-ab service Engine Group and apply .4 and .6 IPs to mating interfaces (see chart above) 
+# Move new SE's to dc-a-cl-ab Service Engine Group and apply .4 and .6 IPs to matching interfaces (see chart above) 
 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE3-4-1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE3-4-2.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE3-4-3.png)
 

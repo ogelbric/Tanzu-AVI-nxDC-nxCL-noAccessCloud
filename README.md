@@ -715,6 +715,10 @@ Power on OVA's
 
 # SE's in AVI controller move to SE group
 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIse3g1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIse3g2.png)
+
 # Frontend network for DC b CL ba and route
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIf3net-1.png)

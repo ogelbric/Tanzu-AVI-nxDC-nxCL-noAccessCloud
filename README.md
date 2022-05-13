@@ -685,4 +685,7 @@ sav[admin:192-168-3-40]: network> save
 
 # WCP is enabled in DC a CL AB
 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCP2Enableddcaclab1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCP2Enableddcaclab2.png)
 

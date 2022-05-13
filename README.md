@@ -538,3 +538,6 @@ sa[admin:192-168-3-40]: serviceenginegroup> save
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEab2.png)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEAB3.png)
+
+Then power on SE's in DC a / CL ab
+

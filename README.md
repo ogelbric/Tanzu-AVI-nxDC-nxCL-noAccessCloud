@@ -671,4 +671,16 @@ sav[admin:192-168-3-40]: network> save
 [admin:192-168-3-40]: > 
 ```
 
+# WCP Enableent for DC a / CL ab
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPEnablement2-1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPEnablement2-2.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPEnablement2-3.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPEnablement2-4.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPEnablement2-5.png)
+
 

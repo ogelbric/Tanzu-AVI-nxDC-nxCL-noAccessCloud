@@ -711,6 +711,17 @@ sav[admin:192-168-3-40]: network> save
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEba13.png)
 
+Power on OVA's
+
+# SE's in AVI controller move to SE group
+
+# Frontend network for DC b CL ba and route
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIf3net-1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIf3net-2.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIf3net-3.png)
 
 
 

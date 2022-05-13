@@ -43,6 +43,10 @@ AVI = 192.168.3.40
 AVI SE1 DC-a / cl-aa = 192.168.3.41
 AVI SE2 DC-a / cl-aa = 192.168.3.42
 
+AVI SE1 DC-a / cl-ab = 192.168.1.41
+AVI SE1 DC-a / cl-ab = 192.168.1.42
+
+
 vCenter = 192.168.3.50
 DNS = 10.197.79.7
 NTP = 10.128.152.81

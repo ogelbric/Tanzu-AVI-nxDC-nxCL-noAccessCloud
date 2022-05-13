@@ -257,7 +257,7 @@ Password:
 +---------------+---------------------------------------------------------+---------------+
 | Default-Group | serviceenginegroup-82201162-f8c7-4345-9f2f-d879521ff0c9 | Default-Cloud |
 | dc-a-cl-aa    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d | Default-Cloud |
-| dc-b-cl-aa    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
+| dc-b-cl-ba    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
 | dc-a-cl-ab    | serviceenginegroup-008123f1-dd98-47c4-9231-02aff2f596a4 | Default-Cloud |
 +---------------+---------------------------------------------------------+---------------+
 [admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-aa
@@ -475,7 +475,7 @@ q+JPGx4=
 +---------------+---------------------------------------------------------+---------------+
 | Default-Group | serviceenginegroup-82201162-f8c7-4345-9f2f-d879521ff0c9 | Default-Cloud |
 | dc-a-cl-aa    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d | Default-Cloud |
-| dc-b-cl-aa    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
+| dc-b-cl-ba    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
 | dc-a-cl-ab    | serviceenginegroup-008123f1-dd98-47c4-9231-02aff2f596a4 | Default-Cloud |
 +---------------+---------------------------------------------------------+---------------+
 [admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-ab

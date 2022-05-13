@@ -155,9 +155,9 @@ AVI SE's OVA needs to be updated with the AVI controller UUID
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE2up.png)
 
-# Create som SE groups and move the SE's into that group 
+# Create some SE groups and move the SE's into that group 
 
-![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/SEGroupsAndSeMoved1.png)
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVSEgroups123.png)
 
 # Match up the MAC's and interfaces 
 

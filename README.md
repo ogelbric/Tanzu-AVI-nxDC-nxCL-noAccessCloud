@@ -703,5 +703,15 @@ sav[admin:192-168-3-40]: network> save
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCP2Enableddcaclab2.png)
 
 
-# Deployment of SE's in DC b and CL ba
+# Deployment of SE's in DC b and CL ba OVA
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEba11.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEba12.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEba13.png)
+
+
+
+
 

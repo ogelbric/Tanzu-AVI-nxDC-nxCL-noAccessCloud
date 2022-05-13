@@ -32,7 +32,7 @@ Connect the SE's to the networks
 Deploy Marker (PDF below) 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/1061720785_9851830dbba540b5b54b26daf9329690-040522-1117-3444.pdf)
 
-Enable WCP in 2 x DC and 3 x CL
+# Enable WCP in 2 x DC and 3 x CL
 
 ## Lets get Started
 
@@ -66,15 +66,15 @@ Front = 192.168.7.x   Net Adapter 3  b4:b2 eth4 7.42
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/avicontrollerovadeployment.png)
 
-Power on AVI Controller
+# Power on AVI Controller
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/PowerOnAVI.png)
 
-Log on to AVI for the first time
+# Log on to AVI for the first time
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/LogOnFirstTime.png)
 
-Answer some basic questions
+# Answer some basic questions
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVI1.png)
 
@@ -82,7 +82,7 @@ Answer some basic questions
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVI3.png)
 
-Generate Key for SE's and AVI Controller image:
+# Generate Key for SE's and AVI Controller image:
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIKeyGen1.png)
 
@@ -94,14 +94,14 @@ Cluster UUID: cluster-6a0818c4-4ab1-47f3-a162-99c9581cba42
 
 AVI SE's OVA needs to be updated with the AVI controller UUID
 
-Generate AVI SE OVA 
+# Generate AVI SE OVA 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEImage.png)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEdownload.png)
 
 
-Power on AVI SE in dc-a / cl-a
+# Power on AVI SE in dc-a / cl-a
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE1.png)
 
@@ -115,42 +115,42 @@ Power on AVI SE in dc-a / cl-a
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE6.png)
 
-Check AVI SE 1 in AVI Controller
+# Check AVI SE 1 in AVI Controller
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE1up.png)
 
 
-Deploy AVI SE 2 for dc-a and cl-a
+# Deploy AVI SE 2 for dc-a and cl-a
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE22.png)
 
-Check AVI SE 2 in AVI Controller
+# Check AVI SE 2 in AVI Controller
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE2up.png)
 
-Create som SE groups and move the SE's into that group 
+# Create som SE groups and move the SE's into that group 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/SEGroupsAndSeMoved1.png)
 
-Match up the MAC's and interfaces 
+# Match up the MAC's and interfaces 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/NetMatchdcacla1.png)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/NetMatchdcacla2.png)
 
-Put IP's onto both SE interfaces
+# Put IP's onto both SE interfaces
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/IPSEdcaclaa1.png)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/IPSEdcaclaa2.png)
 
-Routing from workload to Front end network
+# Routing from workload to Front end network
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Route1.png)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Route2.png)
 
-Frontend Network Declaration / Pool / Adding pool to Default Cloud 
+# Frontend Network Declaration / Pool / Adding pool to Default Cloud 
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/FrontNetwork1.png)
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/FrontNetwork2.png)
@@ -161,7 +161,7 @@ Frontend Network Declaration / Pool / Adding pool to Default Cloud
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/DefCloud1.png)
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/DefCloud2.png)
 
-Collecting some ID's 
+# Collecting some ID's 
 
 ```
 PS C:\Users\Administrator> $vcenter = Connect-VIServer 192.168.3.50 -User administrator@vsphere.local -Password "VMware1!"
@@ -208,7 +208,7 @@ Marker for cl-ba = domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
 
 ```
 
-Marker Creation on AVI controller
+# Marker Creation on AVI controller
 
 ```
 [root@orfdns ~]# ssh admin@192.168.3.40
@@ -338,7 +338,7 @@ New object being created
 [admin:192-168-3-40]: > 
 ```
 
-Check the profiles :
+# Check the profiles :
 
 ```
 [admin:192-168-3-40]: > show ipamdnsproviderprofile
@@ -369,7 +369,7 @@ Check the profiles :
 +-------------------------+-------------------------------------------------------------+
 [admin:192-168-3-40]: > 
 ```
-Cert creation
+# Cert creation
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/cert1.png)
 
@@ -407,7 +407,7 @@ q+JPGx4=
 -----END CERTIFICATE-----
 ```
 
-Enable WCP in vCenter
+# Enable WCP in vCenter
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/wcp1.png)
 
@@ -434,6 +434,87 @@ Cloud 1 is green
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Green1.png)
 
 
+# Configuring Service Engine Group Markers DC a / CL ab and DC b / CL aa
 
+```
+[admin:192-168-3-40]: > 
+[admin:192-168-3-40]: > show serviceenginegroup
++---------------+---------------------------------------------------------+---------------+
+| Name          | UUID                                                    | Cloud         |
++---------------+---------------------------------------------------------+---------------+
+| Default-Group | serviceenginegroup-82201162-f8c7-4345-9f2f-d879521ff0c9 | Default-Cloud |
+| dc-a-cl-aa    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d | Default-Cloud |
+| dc-b-cl-aa    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
+| dc-a-cl-ab    | serviceenginegroup-008123f1-dd98-47c4-9231-02aff2f596a4 | Default-Cloud |
++---------------+---------------------------------------------------------+---------------+
+[admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-ab
+Updating an existing object. Currently, the object is:
++-----------------------------------------+---------------------------------------------------------+
+| Field                                   | Value                                                   |
++-----------------------------------------+---------------------------------------------------------+
+| uuid                                    | serviceenginegroup-008123f1-dd98-47c4-9231-02aff2f596a4 |
+| name                                    | dc-a-cl-ab                                              |
+| max_vs_per_se                           | 10                                                      |
+.
+.
+.
+| log_agent_log_storage_min_sz            | 1024 mb                                                 |
+| log_message_max_file_list_size          | 64                                                      |
++-----------------------------------------+---------------------------------------------------------+
+[admin:192-168-3-40]: serviceenginegroup> markers
+New object being created
+[admin:192-168-3-40]: serviceenginegroup:markers> key clustername
+[admin:192-168-3-40]: serviceenginegroup:markers> values domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+[admin:192-168-3-40]: serviceenginegroup:markers> save
+sav[admin:192-168-3-40]: serviceenginegroup> save
++-----------------------------------------+---------------------------------------------------------+
+| Field                                   | Value                                                   |
++-----------------------------------------+---------------------------------------------------------+
+| uuid                                    | serviceenginegroup-008123f1-dd98-47c4-9231-02aff2f596a4 |
+| name                                    | dc-a-cl-ab                                              |
+| max_vs_per_se                           | 10                                                      |
+.
+.
+.
+| markers[1]                              |                                                         |
+|   key                                   | clustername                                             |
+|   values[1]                             | domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298         |
++-----------------------------------------+---------------------------------------------------------+
+[admin:192-168-3-40]: > configure serviceenginegroup dc-b-cl-aa
+Updating an existing object. Currently, the object is:
++-----------------------------------------+---------------------------------------------------------+
+| Field                                   | Value                                                   |
++-----------------------------------------+---------------------------------------------------------+
+| uuid                                    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 |
+| name                                    | dc-b-cl-aa                                              |
+| max_vs_per_se                           | 10                                                      |
+.
+.
+.
+| log_agent_log_storage_min_sz            | 1024 mb                                                 |
+| log_message_max_file_list_size          | 64                                                      |
++-----------------------------------------+---------------------------------------------------------+
+[admin:192-168-3-40]: serviceenginegroup> markers
+New object being created
+[admin:192-168-3-40]: serviceenginegroup:markers> key clustername
+[admin:192-168-3-40]: serviceenginegroup:markers> values domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+[admin:192-168-3-40]: serviceenginegroup:markers> save
+sa[admin:192-168-3-40]: serviceenginegroup> save
++-----------------------------------------+---------------------------------------------------------+
+| Field                                   | Value                                                   |
++-----------------------------------------+---------------------------------------------------------+
+| uuid                                    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 |
+| name                                    | dc-b-cl-aa                                              |
+| max_vs_per_se                           | 10                                                      |
+.
+.
+.
+| log_message_max_file_list_size          | 64                                                      |
+| markers[1]                              |                                                         |
+|   key                                   | clustername                                             |
+|   values[1]                             | domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298         |
++-----------------------------------------+---------------------------------------------------------+
+[admin:192-168-3-40]: > 
+```
 
 

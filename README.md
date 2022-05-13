@@ -443,7 +443,7 @@ q+JPGx4=
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/wcp10.png)
 
-Cloud 1 is green
+# Cloud 1 is green
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/Green1.png)
 
@@ -531,4 +531,9 @@ sa[admin:192-168-3-40]: serviceenginegroup> save
 [admin:192-168-3-40]: > 
 ```
 
+# AVI SE DC a / CL AB OVA deployment
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEab1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEab2.png)
 

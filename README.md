@@ -628,4 +628,9 @@ sav[admin:192-168-3-40]: network> save
 +----------------------------+-------------------------------------------------+
 [admin:192-168-3-40]: > 
 ```
+# Add the new Usable Network to the default cloud IPAM 
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIADDUsableNetwork2.png)
+
+
 

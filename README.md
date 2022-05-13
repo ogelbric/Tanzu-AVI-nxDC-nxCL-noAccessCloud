@@ -223,31 +223,30 @@ admin@192-168-3-40:~$ shell
 Login: admin
 Password: 
 
+[admin:192-168-3-40]: > 
 [admin:192-168-3-40]: > show serviceenginegroup
 +---------------+---------------------------------------------------------+---------------+
 | Name          | UUID                                                    | Cloud         |
 +---------------+---------------------------------------------------------+---------------+
 | Default-Group | serviceenginegroup-82201162-f8c7-4345-9f2f-d879521ff0c9 | Default-Cloud |
 | dc-a-cl-aa    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d | Default-Cloud |
-| dc-a-cl-ab    | serviceenginegroup-20bf478c-3d0f-4c3a-84ef-b40284bdf2cd | Default-Cloud |
 | dc-b-cl-aa    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 | Default-Cloud |
+| dc-a-cl-ab    | serviceenginegroup-008123f1-dd98-47c4-9231-02aff2f596a4 | Default-Cloud |
 +---------------+---------------------------------------------------------+---------------+
-[admin:192-168-3-40]: > 
-```
-Marker on SE group (Picked wrong group should have been dc-a-cl-aa!!!!! have to re-do a few things !!!!! ) 
-
-```
-[admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-ab
+[admin:192-168-3-40]: > configure serviceenginegroup dc-a-cl-aa
 Updating an existing object. Currently, the object is:
 +-----------------------------------------+---------------------------------------------------------+
 | Field                                   | Value                                                   |
 +-----------------------------------------+---------------------------------------------------------+
-| uuid                                    | serviceenginegroup-20bf478c-3d0f-4c3a-84ef-b40284bdf2cd |
-| name                                    | dc-a-cl-ab                                              |
+| uuid                                    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d |
+| name                                    | dc-a-cl-aa                                              |
+| max_vs_per_se                           | 10                                                      |
 .
 .
 .
-
+| log_agent_log_storage_min_sz            | 1024 mb                                                 |
+| log_message_max_file_list_size          | 64                                                      |
++-----------------------------------------+---------------------------------------------------------+
 [admin:192-168-3-40]: serviceenginegroup> markers
 New object being created
 [admin:192-168-3-40]: serviceenginegroup:markers> key clustername
@@ -257,12 +256,14 @@ s[admin:192-168-3-40]: serviceenginegroup> save
 +-----------------------------------------+---------------------------------------------------------+
 | Field                                   | Value                                                   |
 +-----------------------------------------+---------------------------------------------------------+
-| uuid                                    | serviceenginegroup-20bf478c-3d0f-4c3a-84ef-b40284bdf2cd |
-| name                                    | dc-a-cl-ab                                              |
+| uuid                                    | serviceenginegroup-a5d9e72d-9597-41ce-ab09-46bb1ea8a27d |
+| name                                    | dc-a-cl-aa                                              |
 | max_vs_per_se                           | 10                                                      |
+| min_scaleout_per_vs                     | 1                                                       |
 .
 .
 .
+| log_message_max_file_list_size          | 64                                                      |
 | markers[1]                              |                                                         |
 |   key                                   | clustername                                             |
 |   values[1]                             | domain-c8:7aefe7fe-10bd-4a1e-a9c7-a92227e40298          |

@@ -68,9 +68,9 @@ Work = 192.168.4.x    Net Adapter 2  8c:a0 eth3 4.41
 Front = 192.168.6.x   Net Adapter 3  b4:f7 eth4 6.41
 
 dc-a / cl-ab / SE2
-MGT = 192.168.1.x     Net Adapter 1  6d:7b eth0
-Work = 192.168.4.x    Net Adapter 2  19:9c eth3 4.42
-Front = 192.168.6.x   Net Adapter 3  52:9e eth4 6.42
+MGT = 192.168.1.x     Net Adapter 1  eb:a2 eth0
+Work = 192.168.4.x    Net Adapter 2  41:f4 eth3 4.42
+Front = 192.168.6.x   Net Adapter 3  39:db eth4 6.42
 
 ```
 
@@ -548,3 +548,7 @@ Then power on SE's in DC a / CL ab
 # 2 more SE's in the AVI controller
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIController2moreses.png)
+
+# Move new SE's to dc-a-cl-ab service Engine Group and apply .4 and .6 IPs to mating interfaces (see chart above) 
+
+

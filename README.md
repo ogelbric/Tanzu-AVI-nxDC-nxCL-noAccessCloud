@@ -541,3 +541,6 @@ sa[admin:192-168-3-40]: serviceenginegroup> save
 
 Then power on SE's in DC a / CL ab
 
+# 2 more SE's in the AVI controller
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIController2moreses.png)

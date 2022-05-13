@@ -632,5 +632,43 @@ sav[admin:192-168-3-40]: network> save
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIADDUsableNetwork2.png)
 
+# Check the profiles if aa and ab are attached 
+
+```
+[admin:192-168-3-40]: > 
+[admin:192-168-3-40]: > show ipamdnsproviderprofile
++----------------+-------------------------------------------------------------+
+| Name           | UUID                                                        |
++----------------+-------------------------------------------------------------+
+| ipam-dc-a-cl-a | ipamdnsproviderprofile-34e6d3e9-b1e6-4af0-9f5d-f29a74036798 |
++----------------+-------------------------------------------------------------+
+
+[admin:192-168-3-40]: > 
+[admin:192-168-3-40]: > 
+[admin:192-168-3-40]: > 
+[admin:192-168-3-40]: > show ipamdnsproviderprofile ipam-dc-a-cl-a
++-------------------------+-------------------------------------------------------------+
+| Field                   | Value                                                       |
++-------------------------+-------------------------------------------------------------+
+| uuid                    | ipamdnsproviderprofile-34e6d3e9-b1e6-4af0-9f5d-f29a74036798 |
+| name                    | ipam-dc-a-cl-a                                              |
+| type                    | IPAMDNS_TYPE_INTERNAL                                       |
+| internal_profile        |                                                             |
+|   ttl                   | 30 sec                                                      |
+|   usable_networks[1]    |                                                             |
+|     nw_ref              | frontend-dc-a-cl-aa                                         |
+|   usable_networks[2]    |                                                             |
+|     nw_ref              | frontend-dc-a-cl-ab                                         |
+| gcp_profile             |                                                             |
+|   match_se_group_subnet | False                                                       |
+|   use_gcp_network       | False                                                       |
+| azure_profile           |                                                             |
+|   use_enhanced_ha       | False                                                       |
+|   use_standard_alb      | False                                                       |
+| allocate_ip_in_vrf      | False                                                       |
+| tenant_ref              | admin                                                       |
++-------------------------+-------------------------------------------------------------+
+[admin:192-168-3-40]: > 
+```
 
 

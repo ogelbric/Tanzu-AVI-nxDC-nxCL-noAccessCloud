@@ -557,3 +557,9 @@ Then power on SE's in DC a / CL ab
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISE3-4-3.png)
 
+# Frontend network for dc-a cl-ab and route 
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIFrontenddcaclab1.png)
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIFRontenddcaclab2.png)
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIRoutedcaclab1.png)
+

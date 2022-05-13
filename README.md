@@ -511,13 +511,13 @@ sav[admin:192-168-3-40]: serviceenginegroup> save
 |   key                                   | clustername                                             |
 |   values[1]                             | domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298         |
 +-----------------------------------------+---------------------------------------------------------+
-[admin:192-168-3-40]: > configure serviceenginegroup dc-b-cl-aa
+[admin:192-168-3-40]: > configure serviceenginegroup dc-b-cl-ba
 Updating an existing object. Currently, the object is:
 +-----------------------------------------+---------------------------------------------------------+
 | Field                                   | Value                                                   |
 +-----------------------------------------+---------------------------------------------------------+
 | uuid                                    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 |
-| name                                    | dc-b-cl-aa                                              |
+| name                                    | dc-b-cl-ba                                              |
 | max_vs_per_se                           | 10                                                      |
 .
 .
@@ -535,7 +535,7 @@ sa[admin:192-168-3-40]: serviceenginegroup> save
 | Field                                   | Value                                                   |
 +-----------------------------------------+---------------------------------------------------------+
 | uuid                                    | serviceenginegroup-25d76c26-3d4b-451a-9685-34e052486a77 |
-| name                                    | dc-b-cl-aa                                              |
+| name                                    | dc-b-cl-ba                                              |
 | max_vs_per_se                           | 10                                                      |
 .
 .

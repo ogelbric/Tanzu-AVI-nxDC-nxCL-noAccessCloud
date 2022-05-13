@@ -563,3 +563,69 @@ Then power on SE's in DC a / CL ab
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIFRontenddcaclab2.png)
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIRoutedcaclab1.png)
 
+# Add marker to dc-a cl-ab network frontend
+
+```
+[admin:192-168-3-40]: > show network
++---------------------+----------------------------------------------+
+| Name                | UUID                                         |
++---------------------+----------------------------------------------+
+| frontend-dc-a-cl-aa | network-b66a7edc-b07a-4431-ab77-a415cca0e9c4 |
+| frontend-dc-a-cl-ab | network-9b588dd0-16c4-4e7a-a5d0-173dffe81ec7 |
++---------------------+----------------------------------------------+
+[admin:192-168-3-40]: > configure network frontend-dc-a-cl-ab
+Updating an existing object. Currently, the object is:
++----------------------------+----------------------------------------------+
+| Field                      | Value                                        |
++----------------------------+----------------------------------------------+
+| uuid                       | network-9b588dd0-16c4-4e7a-a5d0-173dffe81ec7 |
+| name                       | frontend-dc-a-cl-ab                          |
+| vcenter_dvs                | True                                         |
+| dhcp_enabled               | True                                         |
+| exclude_discovered_subnets | False                                        |
+| configured_subnets[1]      |                                              |
+|   prefix                   | 192.168.6.0/24                               |
+|   static_ip_ranges[1]      |                                              |
+|     range                  |                                              |
+|       begin                | 192.168.6.50                                 |
+|       end                  | 192.168.6.100                                |
+|     type                   | STATIC_IPS_FOR_VIP_AND_SE                    |
+| vrf_context_ref            | global                                       |
+| synced_from_se             | False                                        |
+| ip6_autocfg_enabled        | True                                         |
+| tenant_ref                 | admin                                        |
+| cloud_ref                  | Default-Cloud                                |
++----------------------------+----------------------------------------------+
+[admin:192-168-3-40]: network> markers
+New object being created
+[admin:192-168-3-40]: network:markers> key clustername
+[admin:192-168-3-40]: network:markers> values domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
+[admin:192-168-3-40]: network:markers> save
+sav[admin:192-168-3-40]: network> save
++----------------------------+-------------------------------------------------+
+| Field                      | Value                                           |
++----------------------------+-------------------------------------------------+
+| uuid                       | network-9b588dd0-16c4-4e7a-a5d0-173dffe81ec7    |
+| name                       | frontend-dc-a-cl-ab                             |
+| vcenter_dvs                | True                                            |
+| dhcp_enabled               | True                                            |
+| exclude_discovered_subnets | False                                           |
+| configured_subnets[1]      |                                                 |
+|   prefix                   | 192.168.6.0/24                                  |
+|   static_ip_ranges[1]      |                                                 |
+|     range                  |                                                 |
+|       begin                | 192.168.6.50                                    |
+|       end                  | 192.168.6.100                                   |
+|     type                   | STATIC_IPS_FOR_VIP_AND_SE                       |
+| vrf_context_ref            | global                                          |
+| synced_from_se             | False                                           |
+| ip6_autocfg_enabled        | True                                            |
+| markers[1]                 |                                                 |
+|   key                      | clustername                                     |
+|   values[1]                | domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298 |
+| tenant_ref                 | admin                                           |
+| cloud_ref                  | Default-Cloud                                   |
++----------------------------+-------------------------------------------------+
+[admin:192-168-3-40]: > 
+```
+

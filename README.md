@@ -44,7 +44,10 @@ AVI SE1 DC-a / cl-aa = 192.168.3.41
 AVI SE2 DC-a / cl-aa = 192.168.3.42
 
 AVI SE1 DC-a / cl-ab = 192.168.1.41
-AVI SE1 DC-a / cl-ab = 192.168.1.42
+AVI SE2 DC-a / cl-ab = 192.168.1.42
+
+AVI SE1 DC-b / cl-ba = 192.168.2.41
+AVI SE2 DC-b / cl-bb = 192.168.2.42
 
 
 vCenter = 192.168.3.50
@@ -71,6 +74,16 @@ dc-a / cl-ab / SE2
 MGT = 192.168.1.x     Net Adapter 1  eb:a2 eth0
 Work = 192.168.4.x    Net Adapter 2  41:f4 eth3 4.42
 Front = 192.168.6.x   Net Adapter 3  39:db eth4 6.42
+
+dc-b / cl-ba / SE1
+MGT = 192.168.2.x     Net Adapter 1  04:4e eth0
+Work = 192.168.8.x    Net Adapter 2  8c:a0 eth3 8.41
+Front = 192.168.9.x   Net Adapter 3  b4:f7 eth4 9.41
+
+dc-b / cl-ba / SE2
+MGT = 192.168.2.x     Net Adapter 1  04:4e eth0
+Work = 192.168.8.x    Net Adapter 2  8c:a0 eth3 8.42
+Front = 192.168.9.x   Net Adapter 3  b4:f7 eth4 9.42
 
 ```
 
@@ -688,4 +701,7 @@ sav[admin:192-168-3-40]: network> save
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCP2Enableddcaclab1.png)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCP2Enableddcaclab2.png)
+
+
+# Deployment of SE's in DC b and CL ba
 

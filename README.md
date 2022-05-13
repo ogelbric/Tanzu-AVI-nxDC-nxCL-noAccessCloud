@@ -531,7 +531,7 @@ sa[admin:192-168-3-40]: serviceenginegroup> save
 [admin:192-168-3-40]: > 
 ```
 
-# AVI SE DC a / CL AB OVA deployment
+# AVI SE DC a / CL ab OVA deployment
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVISEab1.png)
 

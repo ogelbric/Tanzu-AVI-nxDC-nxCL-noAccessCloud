@@ -848,6 +848,29 @@ s[admin:192-168-3-40]: network> save
 
 # WCP Enablemeent for DC b and CL ba
 
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPenablement3-1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPenablement3-2.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/WCPenablement3-3.png)
+
+# Outcome in vCenter 3 green buttons
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/GreenTimes3.png)
+
+# Outcome in vCenter DC a CL aa
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/dcaclaa.png)
+
+# Outcome in vCenter DC a CL ab
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/dcaclab.png)
+
+# Outcome in vCenter DC b CL ba
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/dcbclba.png)
+
+
 # Outcome 3 WCP enabled clusters in 2 different data centers
 
 # logins work

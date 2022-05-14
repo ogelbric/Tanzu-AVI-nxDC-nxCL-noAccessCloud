@@ -1,7 +1,11 @@
 # Tanzu-AVI-nxDC-nxCL-noAccessCloud
 
-This write up will center on the setup of vCenter with AVI enabling several vCenter Data Centers and vCenter Clusters with WCP (Tanzu TKGs). 
-AVI in "No Access Mode" (https://avinetworks.com/docs/21.1/installing-avi-vantage-for-vmware-vcenter/#deploying-avi-vantage-in-read-and-no-access-mode)
+This write up will center on a setup of vCenter with AVI enabling several vCenter Data Centers and vCenter Clusters with WCP (Tanzu TKGs). 
+AVI in "No Access Mode" (https://avinetworks.com/docs/21.1/installing-avi-vantage-for-vmware-vcenter/#deploying-avi-vantage-in-read-and-no-access-mode).  This is a rather lengthy write up since it describes a 3 cluster setup with eveery keystroke taken. 
+
+# The outcome (Spoiller allert!)  
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/GreenTimes3.png)
 
 ## In the beginning the inspiration:
 

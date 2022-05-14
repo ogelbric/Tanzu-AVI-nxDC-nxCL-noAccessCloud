@@ -846,4 +846,49 @@ s[admin:192-168-3-40]: network> save
 [admin:192-168-3-40]: > 
 ```
 
+# WCP Enablemeent for DC b and CL ba
+
+# Outcome 3 WCP enabled clusters in 2 different data centers
+
+# logins work
+```
+/usr/local/bin/kubectl-vsphere login --vsphere-username administrator@vsphere.local --server=https://192.168.9.51 --insecure-skip-tls-verify
+/usr/local/bin/kubectl-vsphere login --vsphere-username administrator@vsphere.local --server=https://192.168.6.51 --insecure-skip-tls-verify
+/usr/local/bin/kubectl-vsphere login --vsphere-username administrator@vsphere.local --server=https://192.168.7.51 --insecure-skip-tls-verify
+```
+ 
+ # 3 Contexts with 3 supervisor clusters
+ 
+ ```
+[root@orfdns ~]# kubectl config get-contexts
+CURRENT   NAME            CLUSTER        AUTHINFO                                       NAMESPACE
+          192.168.6.51    192.168.6.51   wcp:192.168.6.51:administrator@vsphere.local   
+          192.168.7.51    192.168.7.51   wcp:192.168.7.51:administrator@vsphere.local   
+*         192.168.9.51    192.168.9.51   wcp:192.168.9.51:administrator@vsphere.local   
+          namespace1000   192.168.7.51   wcp:192.168.7.51:administrator@vsphere.local   namespace1000
+          namespace2000   192.168.6.51   wcp:192.168.6.51:administrator@vsphere.local   namespace2000
+          namespace3000   192.168.9.51   wcp:192.168.9.51:administrator@vsphere.local   namespace3000
+[root@orfdns ~]# kubectl config use-context namespace1000   
+Switched to context "namespace1000".
+[root@orfdns ~]# k get nodes
+NAME                               STATUS   ROLES                  AGE   VERSION
+4206049c563097aefe1a1c8ead6ed415   Ready    control-plane,master   23h   v1.21.0+vmware.wcp.2
+4206155cfdbff8ea9148fdc846c76a36   Ready    control-plane,master   23h   v1.21.0+vmware.wcp.2
+42061dfb6b9391a24b2f148d545c6f65   Ready    control-plane,master   23h   v1.21.0+vmware.wcp.2
+[root@orfdns ~]# kubectl config use-context namespace2000   
+Switched to context "namespace2000".
+[root@orfdns ~]# k get nodes
+NAME                               STATUS   ROLES                  AGE   VERSION
+42060ea45ef722bc9532a13779ebd547   Ready    control-plane,master   20h   v1.21.0+vmware.wcp.2
+420670a86ab49e5b16dc34fabee0dd62   Ready    control-plane,master   20h   v1.21.0+vmware.wcp.2
+4206e16f8fcec4761abd35bdab9e36c2   Ready    control-plane,master   20h   v1.21.0+vmware.wcp.2
+[root@orfdns ~]# kubectl config use-context namespace3000   
+Switched to context "namespace3000".
+[root@orfdns ~]# k get nodes
+NAME                               STATUS   ROLES                  AGE   VERSION
+4206c0a76ffb3b1854d2a9efa1cf847b   Ready    control-plane,master   8h    v1.21.0+vmware.wcp.2
+4206d8228409df2a1cab0e81b690195e   Ready    control-plane,master   8h    v1.21.0+vmware.wcp.2
+4206dcc07ee99f9306e1e8997c6eac57   Ready    control-plane,master   8h    v1.21.0+vmware.wcp.2
+
+```
 

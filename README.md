@@ -804,4 +804,9 @@ s[admin:192-168-3-40]: network> save
 +----------------------------+-------------------------------------------------+
 [admin:192-168-3-40]: 
 ```
+# Add dc b cl ba frontend network to IPAM profile 
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/AVIIpam3.png)
+
+
 

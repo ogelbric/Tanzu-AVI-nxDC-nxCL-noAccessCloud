@@ -1,7 +1,7 @@
 # Tanzu-AVI-nxDC-nxCL-noAccessCloud
 
 This write up will center on a setup of vCenter with AVI enabling several vCenter Data Centers and vCenter Clusters with WCP (Tanzu TKGs). 
-AVI in "No Access Mode" (https://avinetworks.com/docs/21.1/installing-avi-vantage-for-vmware-vcenter/#deploying-avi-vantage-in-read-and-no-access-mode).  This is a rather lengthy write up since it describes a 3 cluster setup with eveery keystroke taken. 
+AVI in "No Access Mode" (https://avinetworks.com/docs/21.1/installing-avi-vantage-for-vmware-vcenter/#deploying-avi-vantage-in-read-and-no-access-mode).  This is a rather lengthy write up since it describes a 3 cluster setup with every keystroke taken. 
 
 # The outcome (Spoiller allert!)  
 
@@ -238,6 +238,15 @@ Marker for cl-ab = domain-c79:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
 Marker for cl-ba = domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
 
 ```
+
+# Please be aware in one use case the domain-c8:AB-DE... were upppercase and the AKO pod does a strict charater comparisson.  
+# To double check your local situation please look at the URL line for the cluster in vCenter and use that for the marker creation.
+# Here are 2 examples of lower case and the unusual uppercase situation (the marker has to be like what is in the URL)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/URLDomain1.png)
+
+![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/URLDomain2.png)
+
 
 # Marker Creation on AVI controller
 

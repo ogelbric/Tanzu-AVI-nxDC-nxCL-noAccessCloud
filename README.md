@@ -239,9 +239,9 @@ Marker for cl-ba = domain-c40:7aefe7fe-10bd-4a1e-a9c7-a92227e40298
 
 ```
 
-# Please be aware in one use case the domain-c8:AB-DE... were upppercase and the AKO pod does a strict charater comparisson.  
-# To double check your local situation please look at the URL line for the cluster in vCenter and use that for the marker creation.
-# Here are 2 examples of lower case and the unusual uppercase situation (the marker has to be like what is in the URL)
+Please be aware in one use case the domain-c8:AB-DE... were uppercase and the AKO pod does a strict charater comparisson.  
+To double check your local situation please look at the URL line for the cluster in vCenter and use that for the marker creation.
+Here are 2 examples of lower case and the unusual uppercase situation (the marker has to be like what is in the URL)
 
 ![Version](https://github.com/ogelbric/Tanzu-AVI-nxDC-nxCL-noAccessCloud/blob/main/URLDomain1.png)
 
